@@ -1,0 +1,17 @@
+{
+  "name": "azure-web-app-project",
+  "version": "1.0.0",
+  "description": "A project deployed to Azure Web App",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "echo 'No build step defined'"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "author": "",
+  "license": "MIT"
+}
