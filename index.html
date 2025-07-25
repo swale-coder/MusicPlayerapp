@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Playlist Player</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="player">
+    <img id="cover" src="" alt="Cover" class="cover" />
+    <h2 id="title">The Song that is Playing now:</h2>
+
+    <div class="controls">
+      <button id="prev">⏮️</button>
+      <button id="play">▶️</button>
+      <button id="next">⏭️</button>
+    </div>
+
+    <div class="options">
+      <button id="shuffle">🔀</button>
+      <button id="repeat">🔁</button>
+    </div>
+
+    <div class="timeline">
+      <span id="currentTime">0:00</span>
+      <input type="range" id="progress" value="0" />
+      <span id="duration">0:00</span>
+    </div>
+
+    <audio id="audio"></audio>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

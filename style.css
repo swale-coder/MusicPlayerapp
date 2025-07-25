@@ -1,0 +1,51 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  margin: 0;
+}
+.player {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  width: 320px;
+}
+.cover {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.controls, .options {
+  margin-top: 15px;
+}
+button {
+  background: white;
+  color: #984ba2;
+  border: none;
+  padding: 10px 15px;
+  font-size: 20px;
+  margin: 5px;
+  border-radius: 40%;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+button:hover {
+  background: #e0d4f3;
+}
+.timeline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+  margin-top: 20px;
+}
+#progress {
+  flex: 1;
+}
