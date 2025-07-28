@@ -26,7 +26,7 @@ function loadSong(index) {
   const song = songs[index];
   audio.src = song.file;
   cover.src = song.cover;
-  title.textContent = "The Song That Is Playing Now: " + song.file.split("/").pop();
+  title.textContent = "Playing Now: " + song.file.split("/").pop();
 }
 function playPause() {
   if (isPlaying) {
